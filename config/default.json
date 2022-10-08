@@ -1,0 +1,14 @@
+{
+    "clients": {
+        "soap": {
+            "url": "http://127.0.0.1:8000/soap?wsdl",
+            "service": "SoapServiceService",
+            "port": "SoapServicePort"
+        }
+    },
+    "server": {
+        "port": 5000,
+        "address": "0.0.0.0",
+        "shutdownTimeout": 5000
+    }
+}
